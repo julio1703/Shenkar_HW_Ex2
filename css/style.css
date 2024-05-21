@@ -72,7 +72,7 @@ footer {
     bottom: 0;
     height: 287px;
     width: 100vw;
-    display: flex;    
+    display: flex;
 }
 
 footer > section{
@@ -91,7 +91,7 @@ footer > section > h3{
     color: #333;
     font-size: 18px;
     font-weight: 700;
-    line-height: 28px; 
+    line-height: 28px;
     text-transform: uppercase;
     margin-bottom: 16px;
 }
@@ -114,6 +114,37 @@ footer > section > a {
     color: #333;
     font-family: Nunito;
     font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+/* Main */
+#main-background-image{
+    background-image: url(/images/pokemon_backroung_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 800px;
+}
+
+#main-background-image > h1 {
+    color: #612999;
+    font-family: Nunito;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-left: 32px;
+}
+
+#main-background-image > p {
+    width: 448px;
+    margin-left: 32px;
+    color: #000;
+    font-family: Nunito;
+    font-size: 24px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
