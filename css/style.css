@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+   }
+
+header, nav, main, aside, section, article, footer, div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    height: 96px;
+    padding-top: 32px;
+    display: flex;
+}
+
+#logo {
+    margin-left: 32px;
+    display: flex;
+    background-image: url(/images/Pokemon_Card_Logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+}
+
+#logo span{
+    font-size: 24px;
+    font-family: "Rowdies", sans-serif;
+    font-weight: 700;
+    color: #3E3F43;
+    font-style: normal;
+    margin-left: 64px;
+    letter-spacing: 6px;
+}
+
+nav {
+    margin-top: 16px;
+    margin-left: 323px;
+}
+
+nav a.selected{
+    font-weight: 700;
+}
+
+nav > a {
+    color: #612999;
+    font-family: "Rowdies", sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+nav > a:hover {
+    font-weight: 700;
+}
+
+nav > a:not(:first-child){
+    margin-left: 64px;
+}
+
