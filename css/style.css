@@ -11,7 +11,9 @@ a {
     text-decoration: none;
 }
 
+/* Header */
 header {
+    background-color: red;
     height: 96px;
     padding-top: 32px;
     display: flex;
@@ -30,7 +32,7 @@ header {
 
 #logo span{
     font-size: 24px;
-    font-family: "Rowdies", sans-serif;
+    font-family: Nunito;
     font-weight: 700;
     color: #3E3F43;
     font-style: normal;
@@ -49,7 +51,7 @@ nav a.selected{
 
 nav > a {
     color: #612999;
-    font-family: "Rowdies", sans-serif;
+    font-family: Nunito;
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
@@ -63,3 +65,56 @@ nav > a:not(:first-child){
     margin-left: 64px;
 }
 
+/* Footer */
+footer {
+    background-color: #EFECFF;
+    position: sticky;
+    bottom: 0;
+    height: 287px;
+    width: 100vw;
+    display: flex;    
+}
+
+footer > section{
+    margin-top: 32px;
+    margin-left: 32px;
+    font-family: Nunito;
+    display: flex;
+    flex-direction: column;
+}
+
+footer > section:last-child {
+    margin-left: 150px;
+}
+
+footer > section > h3{
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px; 
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+footer > section > a {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333;
+}
+
+#footer-social-media-icons {
+    margin: 16px 0px;
+}
+
+#footer-social-media-icons a:not(:last-child) {
+    margin-right: 24px;
+}
+
+#footer-social-media-icons span {
+    color: #333;
+    font-family: Nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
