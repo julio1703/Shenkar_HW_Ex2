@@ -11,7 +11,6 @@ a {
     text-decoration: none;
 }
 
-/* Header */
 header {
     height: 96px;
     padding-top: 32px;
@@ -20,23 +19,24 @@ header {
 
 #logo {
     margin-left: 32px;
-    display: flex;
     background-image: url(/images/Pokemon_Card_Logo.png);
     background-size: cover;
     background-repeat: no-repeat;
-    align-items: center;
     width: 64px;
     height: 64px;
 }
 
 #logo span{
-    font-size: 24px;
-    font-family: Nunito;
-    font-weight: 700;
+    display: block;
     color: #3E3F43;
+    font-family: Nunito;
+    font-size: 24px;
     font-style: normal;
-    margin-left: 64px;
+    font-weight: 700;
+    line-height: normal;
     letter-spacing: 6px;
+    margin-left: 61px;
+    margin-top: 21px;
 }
 
 nav {
@@ -54,6 +54,7 @@ nav > a {
     font-size: 30px;
     font-style: normal;
     font-weight: 400;
+    line-height: normal;
 }
 
 nav > a:hover {
@@ -64,13 +65,11 @@ nav > a:not(:first-child){
     margin-left: 64px;
 }
 
-/* Footer */
 footer {
     background-color: #EFECFF;
     position: sticky;
     bottom: 0;
     height: 287px;
-    /* width: 100vw; */
     display: flex;
 }
 
@@ -99,6 +98,7 @@ footer > section > a {
     font-size: 16px;
     font-weight: 400;
     color: #333;
+    margin-bottom: 8px;
 }
 
 #footer-social-media-icons {
@@ -118,7 +118,6 @@ footer > section > a {
     line-height: normal;
 }
 
-/* Main */
 #main-background-image{
     background-image: url(/images/pokemon_backroung_image.jpg);
     background-repeat: no-repeat;
