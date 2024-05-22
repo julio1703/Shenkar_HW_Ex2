@@ -283,3 +283,10 @@ footer > section > a {
 .price-and-cart .card-cart > img {
     margin: 14px 16px 18px;
 }
+
+#section-pokecards-images > img{
+    margin-left: 32px;
+    object-fit: cover;
+    height: 300px;
+    border: 4px solid #E6DBFE;
+}
