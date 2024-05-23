@@ -15,7 +15,7 @@ header {
 }
 #logo {
     margin-left: 32px;
-    background-image: url(images/Pokemon_Card_Logo.png);
+    background-image: url(/images/Pokemon_Card_Logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 64px;
@@ -100,7 +100,7 @@ footer > section > a {
     line-height: normal;
 }
 #main-background-image{
-    background-image: url(images/pokemon_background_image.jpg);
+    background-image: url(/images/Pokemon_background_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -214,6 +214,7 @@ footer > section > a {
     height: 47px;
     border-radius: 50%;
     background-color: #EFECFF;
+    cursor: pointer;
 }
 .card .card-heart > img {
     margin: 14px 12px 13px;
@@ -242,6 +243,7 @@ footer > section > a {
     height: 63px;
     border-radius: 50%;
     background-color: #612999;
+    cursor: pointer;
 }
 .price-and-cart .card-cart > img {
     margin: 14px 16px 18px;
