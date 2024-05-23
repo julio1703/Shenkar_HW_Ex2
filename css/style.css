@@ -1,31 +1,26 @@
 * {
     margin: 0;
     padding: 0;
-   }
-
+}
 header, nav, main, aside, section, article, footer, div {
     display: block;
 }
-
 a {
     text-decoration: none;
 }
-
 header {
     height: 96px;
     padding-top: 32px;
     display: flex;
 }
-
 #logo {
     margin-left: 32px;
-    background-image: url(/images/Pokemon_Card_Logo.png);
+    background-image: url(images/Pokemon_Card_Logo.png);
     background-size: cover;
     background-repeat: no-repeat;
     width: 64px;
     height: 64px;
 }
-
 #logo span{
     display: block;
     color: #3E3F43;
@@ -38,16 +33,13 @@ header {
     margin-left: 61px;
     margin-top: 21px;
 }
-
 nav {
     margin-top: 16px;
     margin-left: 323px;
 }
-
 nav a.selected{
     font-weight: 700;
 }
-
 nav > a {
     color: #612999;
     font-family: Nunito;
@@ -56,15 +48,12 @@ nav > a {
     font-weight: 400;
     line-height: normal;
 }
-
 nav > a:hover {
     font-weight: 700;
 }
-
 nav > a:not(:first-child){
     margin-left: 64px;
 }
-
 footer {
     background-color: #EFECFF;
     position: sticky;
@@ -72,7 +61,6 @@ footer {
     height: 287px;
     display: flex;
 }
-
 footer > section{
     margin-top: 32px;
     margin-left: 32px;
@@ -80,11 +68,9 @@ footer > section{
     display: flex;
     flex-direction: column;
 }
-
 footer > section:last-child {
     margin-left: 150px;
 }
-
 footer > section > h3{
     color: #333;
     font-size: 18px;
@@ -93,22 +79,18 @@ footer > section > h3{
     text-transform: uppercase;
     margin-bottom: 16px;
 }
-
 footer > section > a {
     font-size: 16px;
     font-weight: 400;
     color: #333;
     margin-bottom: 8px;
 }
-
 #footer-social-media-icons {
     margin: 16px 0px;
 }
-
 #footer-social-media-icons a:not(:last-child) {
     margin-right: 24px;
 }
-
 #footer-social-media-icons span {
     color: #333;
     font-family: Nunito;
@@ -117,16 +99,14 @@ footer > section > a {
     font-weight: 600;
     line-height: normal;
 }
-
 #main-background-image{
-    background-image: url(/images/pokemon_backroung_image.jpg);
+    background-image: url(images/pokemon_background_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     width: 100%;
     height: 800px;
 }
-
 #main-background-image > h1 {
     color: #612999;
     font-family: Nunito;
@@ -136,7 +116,6 @@ footer > section > a {
     line-height: normal;
     margin-left: 32px;
 }
-
 #main-background-image > p {
     width: 448px;
     margin-left: 32px;
@@ -147,14 +126,12 @@ footer > section > a {
     font-weight: 600;
     line-height: normal;
 }
-
 #main-about-us {
     margin-left: 32px;
     margin-top: 32px;
     margin-right: 32px;
     margin-bottom: 39px;
 }
-
 #main-about-us > h2 {
     color: #612999;
     margin-bottom: 32px;
@@ -164,7 +141,6 @@ footer > section > a {
     font-weight: 500;
     line-height: 40px;
 }
-
 #main-about-us > p {
     color: #000;
     margin-bottom: 24px;
@@ -175,11 +151,9 @@ footer > section > a {
     font-weight: 400;
     line-height: 140.625%;
 }
-
 #section-cards {
     margin-left: 32px;
 }
-
 #section-cards > h2 {
     color: #612999;
     font-family: Rubik;
@@ -189,12 +163,10 @@ footer > section > a {
     line-height: 40px;
     margin-bottom: 32px;
 }
-
 #section-cards > section {
     display: flex;
     flex-wrap: wrap;
 }
-
 #section-cards .card {
     position: relative;
     width: 376px;
@@ -205,7 +177,6 @@ footer > section > a {
     background: #EFECFF;
     box-shadow: 0px 6px 40px 0px rgba(57, 132, 187, 0.05);
 }
-
 #section-cards .card > h4 {
     color: #000;
     text-align: justify;
@@ -217,7 +188,6 @@ footer > section > a {
     margin-left: 32px;
     margin-bottom: 7px;
 }
-
 #section-cards .card > p {
     width: 315px;
     height: 96px;
@@ -229,7 +199,6 @@ footer > section > a {
     line-height: normal;
     margin-left: 32px;
 }
-
 #section-cards .card > img {
     object-fit: cover;
     width: 100%;
@@ -237,7 +206,6 @@ footer > section > a {
     border-radius: 38px;
     margin-bottom: 21px;
 }
-
 .card .card-heart {
     position: absolute;
     top: 40px;
@@ -247,11 +215,9 @@ footer > section > a {
     border-radius: 50%;
     background-color: #EFECFF;
 }
-
 .card .card-heart > img {
     margin: 14px 12px 13px;
 }
-
 .card .price-and-cart {
     position: absolute;
     left: 32px;
@@ -262,7 +228,6 @@ footer > section > a {
     justify-content: space-between;
     align-items: center;
 }
-
 .card .price-and-cart > h3 {
     color: #612999;
     text-align: justify;
@@ -272,34 +237,28 @@ footer > section > a {
     font-weight: 400;
     line-height: normal;
 }
-
 .price-and-cart .card-cart {
     width: 63px;
     height: 63px;
     border-radius: 50%;
     background-color: #612999;
 }
-
 .price-and-cart .card-cart > img {
     margin: 14px 16px 18px;
 }
-
 #section-pokecards-images > img{
     margin-left: 32px;
     object-fit: cover;
     height: 300px;
     border: 4px solid #E6DBFE;
 }
-
 #list-of-pokecards ul {
     list-style-type: none;
 }
-
 #list-of-pokecards {
     margin-top: 32px;
     margin-left: 32px;
 }
-
 #list-of-pokecards > h2 {
     color: #612999;
     font-family: Rubik;
@@ -309,16 +268,13 @@ footer > section > a {
     line-height: 40px;
     margin-bottom: 32px;
 }
-
 #list-of-pokecards li {
     display: flex;
     align-items: center;
 }
-
 #list-of-pokecards li:not(:last-child){
     margin-bottom: 16px;
 }
-
 #list-of-pokecards li > p {
     color: #000;
     font-family: Rubik;
@@ -327,7 +283,6 @@ footer > section > a {
     font-weight: 400;
     line-height: 14px;
 }
-
 #list-of-pokecards .rocket-icon {
     width: 82px;
     height: 82px;
@@ -336,17 +291,14 @@ footer > section > a {
     background: #612999;
     backdrop-filter: blur(10px);
 }
-
 #list-of-pokecards .rocket-icon > img {
     margin: 20px 27px 19.62px 26px;
 }
-
 #your-choice {
     margin-left: 32px;
     margin-top: 32px;
     margin-bottom: 198px;
 }
-
 #your-choice > h2 {
     color: #612999;
     font-family: Rubik;
@@ -356,25 +308,21 @@ footer > section > a {
     line-height: 40px;
     margin-bottom: 32px;
 }
-
 #your-choice-form {
     height: 503px;
     margin-right: 32px;
     background: #EFECFF;
 }
-
 #your-choice-form > form {
     padding-left: 32px;
     padding-top: 32px;
 }
-
 #your-choice-form section {
     margin-bottom: 16px;
     display: flex;
     flex-direction: column;
     width: 40%;
 }
-
 #your-choice-form section:not(:last-child) > label {
     margin-bottom: 4px;
     color: #612999;
@@ -383,7 +331,6 @@ footer > section > a {
     font-size: 18px;
     line-height: 18px;
 }
-
 #your-choice-form section:not(:last-child) > input {
     border-radius: 5px;
     height: 40px;
@@ -394,7 +341,6 @@ footer > section > a {
     line-height: 16px;
     padding-left: 10px;
 }
-
 #your-choice-form section:last-child > input {
     background-color: #612999;
     color: white;
