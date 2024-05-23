@@ -15,7 +15,7 @@ header {
 }
 #logo {
     margin-left: 32px;
-    background-image: url(../images/Background_Image.jpg);
+    background-image: url(../images/PokeCards_Logo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     width: 64px;
@@ -100,7 +100,7 @@ footer > section > a {
     line-height: normal;
 }
 #main-background-image{
-    background-image: url(../images/PokeCards_Logo.jpg);
+    background-image: url(../images/Background_Image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
